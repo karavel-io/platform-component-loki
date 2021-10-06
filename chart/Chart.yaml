@@ -3,7 +3,7 @@ name: loki
 description: Grafana Loki component for Karavel
 type: application
 version: 0.1.0-SNAPSHOT
-appVersion: 2.1.0
+appVersion: 2.2.0
 maintainers:
   - name: MatteoJoliveau
     email: matteo.joliveau@mikamai.com
@@ -11,10 +11,10 @@ maintainers:
 home: https://grafana.com/oss/loki/
 sources:
   - https://github.com/grafana/loki
-  - https://github.com/projectkaravel/platform
+  - https://github.com/karavel-io/platform
 
 annotations:
-  karavel.io/dependencies: cert-manager, external-secrets
+  karavel.io/dependencies: cert-manager
   prometheus.enable: prometheus
   monitoring.enable: grafana, prometheus
 #  tracing.enable: tempo

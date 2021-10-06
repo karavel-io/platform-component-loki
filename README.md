@@ -12,4 +12,4 @@ Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation 
 
 The Loki Component is licensed under the [Apache 2.0 license](LICENSE).
 
-The Karavel Container Platform is licensed under the [Apache 2.0 license](https://github.com/projectkaravel/platform/blob/main/LICENSE).
+The Karavel Container Platform is licensed under the [Apache 2.0 license](https://github.com/karavel-io/platform/blob/main/LICENSE).
