@@ -21,7 +21,7 @@ spec:
         derivedFields:
           {{- if .Values.tracing.enable }}
           - datasourceUid: {{ .Values.tracing.dsUid }}
-            matcherRegex: (?:traceID|trace_id)=(\w+)
+            matcherRegex: '"(?:traceID|traceId|trace_id)":[ ]*"(\w*)"'
             name: TraceID
             url: $${__value.raw}
           {{- else }}
