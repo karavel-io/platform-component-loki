@@ -14,6 +14,9 @@ ingester:
       kvstore:
         store: memberlist
       replication_factor: 1
+  wal:
+    enabled: true
+    dir: /data/loki/wal
 
 memberlist:
   abort_if_cluster_join_fails: false
