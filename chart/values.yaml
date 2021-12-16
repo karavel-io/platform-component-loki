@@ -9,7 +9,7 @@ s3:
   insecure: false
   pathStyle: false
 promtail:
-  version: 2.1.0
+  version: 2.4.1
 
 prometheus:
   enable: true
