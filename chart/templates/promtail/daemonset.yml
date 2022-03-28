@@ -24,7 +24,7 @@ spec:
       serviceAccountName: promtail
       initContainers:
         - name: init
-          image: busybox
+          image: quay.io/prometheus/busybox
           command:
             - sh
             - -c
@@ -36,7 +36,7 @@ spec:
         - operator: Exists
       containers:
         - name: promtail
-          image: "grafana/promtail:{{ .Values.promtail.version }}"
+          image: "quay.io/karavel/promtail:{{ .Chart.AppVersion }}"
           imagePullPolicy: IfNotPresent
           args:
             - "-config.file=/etc/promtail/promtail.yaml"

@@ -7,9 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2022-03-28
+
+### Changed
+
+- Switch from the official `docker.io/grafana/loki` and `docker.io/grafana/promtail` image to the vendored `quay.io/karavel/loki` and `quay.io/karavel/promtail` to avoid Docker Hub's rate limits.
+
 ## [1.0.0] - 2022-03-22
 
 Initial release
 
-[unreleased]: https://github.com/karavel-io/platform-component-loki/compare/1.0.0...HEAD
+[unreleased]: https://github.com/karavel-io/platform-component-loki/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/karavel-io/platform-component-loki/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/karavel-io/platform-component-loki/releases/tag/1.0.0
