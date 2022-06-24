@@ -1,5 +1,8 @@
+namespace: loki
+
 grafana:
   namespace: ""
+
 store: filesystem  # filesystem | s3
 s3:
   region: ""
