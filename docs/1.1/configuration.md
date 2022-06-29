@@ -2,7 +2,7 @@
 
 ```hcl
 component "loki" {
-  namespace = "loki"
+  namespace = "loki" # optional
 
   # Params default values
 
